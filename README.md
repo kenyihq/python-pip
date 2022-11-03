@@ -1,15 +1,17 @@
 # Python PIP Course
 
-## Game Python
+## Install and run
 ### Steps
 - Windows
 ```sh
-cd game && py main.py
+py -m venv venv
+venv\Scripts\activate
 ```
 
 - Linux
 ```sh
-cd game &&  python3 main.py
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ## Game Project
